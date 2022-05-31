@@ -1,0 +1,16 @@
+server:
+  port: 1003
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:1000/eureka/
+    healthcheck:
+      enabled: true
+  instance:
+    hostname: localhost
+    prefer-ip-address: true
+
+spring:
+  application:
+    name: Service1
