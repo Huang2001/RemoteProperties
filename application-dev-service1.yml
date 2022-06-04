@@ -16,6 +16,6 @@ spring:
     
 family:
   people:
-    5
+    6
   address:
-    fujian
+    fujian三明
